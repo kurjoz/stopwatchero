@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.counter{
+  margin: 0 auto;
+  max-width: 360px;
+
+}
+.counter-display{
+  margin: 20px 0;
+  font-size: 64px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.counter-controls{
+  margin: 20px 0;
+}
+.counter-control{
+  margin: 0 10px;
+  padding: 10px 5px;
+  background: none;
+  font-size: 16px;
+  min-width: 70px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
